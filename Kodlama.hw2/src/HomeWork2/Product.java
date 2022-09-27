@@ -1,6 +1,10 @@
 package HomeWork2;
 
+
 public class Product { 
+	public Product() {
+		System.out.println("Yapıcı blok çalıştı");
+	}
 	private int id;
 	private String name;
 	private String description;
